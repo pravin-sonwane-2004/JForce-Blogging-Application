@@ -1,8 +1,8 @@
 package com.pravin.backend.repository;
 
 import com.pravin.backend.entity.Post;
-import com.pravin.backend.entity.PostStatus;
 import com.pravin.backend.entity.User;
+import com.pravin.backend.enums.PostStatus;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
